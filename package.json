@@ -1,0 +1,29 @@
+{
+  "name": "web-cli",
+  "version": "1.0.0",
+  "description": "快速生成项目模板的脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "web-cli": "bin/init.js"
+  },
+  "files": [
+    "./bin",
+    "./src"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "9.0",
+    "nodemon": "^3.0.1",
+    "ora": "^7.0.1"
+  }
+}
